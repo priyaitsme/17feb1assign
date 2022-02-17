@@ -1,0 +1,17 @@
+n=int(input("enter fibonacci number range"))
+a=0
+b=1
+sum=0
+for n in range (0,n):
+    print(a,end= " ")
+    sum=sum+a
+    c=a+b
+    a=b 
+    b=c
+    
+    
+    
+    OUTPUT:
+    enter fibonacci number range10
+> 
+0 1 1 2 3 5 8 13 21 34 >
